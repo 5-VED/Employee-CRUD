@@ -1,6 +1,6 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
-const db_Connect = require('./Models/db');
+require('./Models/db');
 // const employee = require('./Models/employee.model');
 const path = require('path');
 
