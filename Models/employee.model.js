@@ -1,7 +1,4 @@
-//const express = require('express');
 const mongoose = require('mongoose');
-//const router = express.Router();
-
 
 const employeeSchema = new mongoose.Schema({
     name: {
@@ -27,4 +24,4 @@ const employeeSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Employee', employeeSchema);
-//module.exports = router;
+
